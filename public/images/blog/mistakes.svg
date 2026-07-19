@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#25566A"/>
+    </linearGradient>
+    <radialGradient id="bl-glow" cx="80%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#D8AF4A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D8AF4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bl-bg)"/>
+  <rect width="1600" height="900" fill="url(#bl-glow)"/>
+  <!-- Big number -->
+  <text x="200" y="620" font-family="Georgia, serif" font-size="600" fill="#D8AF4A" opacity="0.16" font-weight="500">05</text>
+  <!-- Fish -->
+  <g transform="translate(1100 500)" fill="#D8AF4A">
+    <path d="M-180 0 c 80 -40, 180 -40, 260 -10 l 50 -18 l -16 30 l 16 30 l -50 -18 c -80 30, -180 30, -260 -10 c -20 -12, -20 -28, 0 -4 z" opacity="0.85"/>
+    <circle cx="60" cy="-10" r="10" fill="#0E2A33"/>
+  </g>
+  <!-- Ripples -->
+  <g stroke="#2A8FB5" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 780 C 400 760, 1200 800, 1550 780"/>
+    <path d="M50 820 C 400 800, 1200 840, 1550 820"/>
+  </g>
+</svg>

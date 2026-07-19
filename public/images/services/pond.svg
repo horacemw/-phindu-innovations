@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#582919"/>
+      <stop offset="100%" stop-color="#C6613D"/>
+    </linearGradient>
+    <linearGradient id="pond-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A8FB5"/>
+      <stop offset="100%" stop-color="#0E2A33"/>
+    </linearGradient>
+    <radialGradient id="sun2" cx="80%" cy="15%" r="35%">
+      <stop offset="0%" stop-color="#D8AF4A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D8AF4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#soil)"/>
+  <rect width="1200" height="900" fill="url(#sun2)"/>
+
+  <!-- 4 rectangular ponds aerial view -->
+  <g>
+    <rect x="140" y="210" width="440" height="260" rx="10" fill="url(#pond-water)" stroke="#B4863A" stroke-width="4"/>
+    <rect x="620" y="210" width="440" height="260" rx="10" fill="url(#pond-water)" stroke="#B4863A" stroke-width="4"/>
+    <rect x="140" y="500" width="440" height="260" rx="10" fill="url(#pond-water)" stroke="#B4863A" stroke-width="4"/>
+    <rect x="620" y="500" width="440" height="260" rx="10" fill="url(#pond-water)" stroke="#B4863A" stroke-width="4"/>
+  </g>
+
+  <!-- Water shimmer -->
+  <g stroke="#D8AF4A" stroke-width="1.5" fill="none" opacity="0.35">
+    <path d="M180 260 C 280 250, 400 275, 540 260"/>
+    <path d="M180 340 C 280 330, 400 355, 540 340"/>
+    <path d="M660 260 C 760 250, 880 275, 1020 260"/>
+    <path d="M180 550 C 280 540, 400 565, 540 550"/>
+    <path d="M660 550 C 760 540, 880 565, 1020 550"/>
+    <path d="M660 660 C 760 650, 880 675, 1020 660"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="tr-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B4863A"/>
+      <stop offset="100%" stop-color="#582919"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#tr-bg)"/>
+  <!-- Sun -->
+  <circle cx="600" cy="220" r="140" fill="#D8AF4A" opacity="0.5"/>
+  <circle cx="600" cy="220" r="80" fill="#F1E1B0" opacity="0.8"/>
+  <!-- Ground -->
+  <path d="M0 650 L 1200 650 L 1200 900 L 0 900 Z" fill="#33170E" opacity="0.85"/>
+  <!-- Silhouette figures -->
+  <g fill="#0E2A33">
+    <g transform="translate(200 480)">
+      <circle cx="0" cy="0" r="42"/>
+      <path d="M-45 45 L -55 200 L -20 200 L -10 90 L 10 90 L 20 200 L 55 200 L 45 45 Z"/>
+    </g>
+    <g transform="translate(360 500)">
+      <circle cx="0" cy="0" r="38"/>
+      <path d="M-42 42 L -50 190 L -18 190 L -8 85 L 8 85 L 18 190 L 50 190 L 42 42 Z"/>
+    </g>
+    <g transform="translate(600 470)">
+      <circle cx="0" cy="0" r="48"/>
+      <path d="M-50 50 L -60 210 L -20 210 L -10 100 L 10 100 L 20 210 L 60 210 L 50 50 Z"/>
+    </g>
+    <g transform="translate(830 500)">
+      <circle cx="0" cy="0" r="38"/>
+      <path d="M-42 42 L -50 190 L -18 190 L -8 85 L 8 85 L 18 190 L 50 190 L 42 42 Z"/>
+    </g>
+    <g transform="translate(990 480)">
+      <circle cx="0" cy="0" r="42"/>
+      <path d="M-45 45 L -55 200 L -20 200 L -10 90 L 10 90 L 20 200 L 55 200 L 45 45 Z"/>
+    </g>
+  </g>
+</svg>

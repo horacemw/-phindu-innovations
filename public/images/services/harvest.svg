@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hv-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B4863A"/>
+      <stop offset="100%" stop-color="#582919"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#hv-bg)"/>
+  <!-- Sun -->
+  <circle cx="200" cy="200" r="90" fill="#F1E1B0" opacity="0.85"/>
+  <!-- Basket -->
+  <g transform="translate(600 550)">
+    <ellipse cx="0" cy="180" rx="240" ry="40" fill="#33170E"/>
+    <path d="M-240 180 A 240 40 0 0 0 240 180 L 200 0 A 200 20 0 0 1 -200 0 Z" fill="#582919" stroke="#33170E" stroke-width="4"/>
+    <!-- Weave lines -->
+    <g stroke="#33170E" stroke-width="2" opacity="0.7" fill="none">
+      <path d="M-235 100 A 235 25 0 0 0 235 100"/>
+      <path d="M-225 40 A 225 20 0 0 0 225 40"/>
+      <path d="M-235 140 A 235 30 0 0 0 235 140"/>
+    </g>
+    <!-- Fish piled -->
+    <g fill="#F1E1B0">
+      <path d="M-150 -20 c 40 -20, 100 -20, 140 -5 l 25 -10 l -8 18 l 8 18 l -25 -10 c -40 15, -100 15, -140 -5 c -10 -6, -10 -14, 0 -20 z"/>
+      <path d="M-50 -50 c 40 -20, 100 -20, 140 -5 l 25 -10 l -8 18 l 8 18 l -25 -10 c -40 15, -100 15, -140 -5 c -10 -6, -10 -14, 0 -20 z" opacity="0.9"/>
+      <path d="M20 -20 c 40 -20, 100 -20, 140 -5 l 25 -10 l -8 18 l 8 18 l -25 -10 c -40 15, -100 15, -140 -5 c -10 -6, -10 -14, 0 -20 z" opacity="0.85"/>
+    </g>
+    <g fill="#0E2A33">
+      <circle cx="90" cy="-25" r="4"/>
+      <circle cx="190" cy="-55" r="4"/>
+      <circle cx="160" cy="-25" r="4"/>
+    </g>
+  </g>
+</svg>

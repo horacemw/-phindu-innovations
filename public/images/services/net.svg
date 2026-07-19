@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="nt-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#25566A"/>
+      <stop offset="100%" stop-color="#0E2A33"/>
+    </linearGradient>
+    <pattern id="mesh" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <path d="M0 20 L 40 20 M 20 0 L 20 40" stroke="#D8AF4A" stroke-width="1.5" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#nt-bg)"/>
+  <!-- Net drape -->
+  <path d="M100 200 C 300 220, 500 260, 700 200 C 900 140, 1100 260, 1100 300 C 1080 500, 900 700, 700 720 C 500 740, 300 700, 200 500 C 150 400, 80 300, 100 200 Z" fill="url(#mesh)" opacity="0.9"/>
+  <!-- Rope -->
+  <path d="M100 200 C 300 220, 500 260, 700 200 C 900 140, 1100 260, 1100 300" stroke="#B4863A" stroke-width="6" fill="none"/>
+  <!-- Floats -->
+  <g fill="#D8AF4A">
+    <circle cx="150" cy="210" r="12"/>
+    <circle cx="400" cy="240" r="12"/>
+    <circle cx="700" cy="200" r="12"/>
+    <circle cx="1050" cy="270" r="12"/>
+  </g>
+  <!-- Fish caught -->
+  <g fill="#F1E1B0" opacity="0.85">
+    <path d="M400 450 c 30 -14, 65 -14, 90 -3 l 15 -5 l -5 10 l 5 10 l -15 -5 c -25 11, -60 11, -90 -3 c -8 -4, -8 -12, 0 -14 z"/>
+    <path d="M700 550 c 30 -14, 65 -14, 90 -3 l 15 -5 l -5 10 l 5 10 l -15 -5 c -25 11, -60 11, -90 -3 c -8 -4, -8 -12, 0 -14 z"/>
+    <path d="M560 620 c 25 -12, 55 -12, 75 -2 l 12 -4 l -4 8 l 4 8 l -12 -4 c -20 10, -50 10, -75 -2 c -6 -3, -6 -9, 0 -12 z"/>
+  </g>
+</svg>

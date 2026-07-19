@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="1200" height="1600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="lk-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1E1B0"/>
+      <stop offset="45%" stop-color="#D8AF4A"/>
+      <stop offset="70%" stop-color="#B4863A"/>
+      <stop offset="100%" stop-color="#582919"/>
+    </linearGradient>
+    <linearGradient id="lk-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8F6B2E"/>
+      <stop offset="60%" stop-color="#25566A"/>
+      <stop offset="100%" stop-color="#0E2A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#lk-sky)"/>
+  <!-- Sun -->
+  <circle cx="600" cy="700" r="120" fill="#F1E1B0" opacity="0.85"/>
+  <!-- Hills far -->
+  <path d="M0 780 C 300 720, 700 760, 1200 700 L 1200 900 L 0 900 Z" fill="#582919"/>
+  <!-- Water -->
+  <rect y="900" width="1200" height="700" fill="url(#lk-water)"/>
+  <!-- Reflection -->
+  <g opacity="0.7" fill="#F1E1B0">
+    <ellipse cx="600" cy="1000" rx="280" ry="4"/>
+    <ellipse cx="600" cy="1030" rx="240" ry="3"/>
+    <ellipse cx="600" cy="1060" rx="200" ry="2.5"/>
+    <ellipse cx="600" cy="1090" rx="160" ry="2"/>
+    <ellipse cx="600" cy="1120" rx="120" ry="1.5"/>
+  </g>
+  <!-- Fisherman boat silhouette -->
+  <g transform="translate(300 1200)" fill="#0E2A33">
+    <path d="M-60 0 L 60 0 L 45 20 L -45 20 Z"/>
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#0E2A33" stroke-width="3"/>
+    <circle cx="0" cy="-95" r="6"/>
+  </g>
+</svg>

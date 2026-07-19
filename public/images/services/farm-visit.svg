@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fv-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1E1B0"/>
+      <stop offset="70%" stop-color="#D8AF4A"/>
+      <stop offset="100%" stop-color="#8F6B2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#fv-sky)"/>
+  <!-- Sun low horizon -->
+  <circle cx="900" cy="480" r="120" fill="#F1E1B0" opacity="0.9"/>
+  <!-- Distant hills -->
+  <path d="M0 540 C 200 500, 400 520, 600 490 C 800 470, 1000 510, 1200 480 L 1200 620 L 0 620 Z" fill="#582919"/>
+  <path d="M0 610 C 300 570, 600 600, 900 580 C 1050 570, 1200 600, 1200 590 L 1200 720 L 0 720 Z" fill="#33170E"/>
+  <!-- Ground -->
+  <rect y="700" width="1200" height="200" fill="#33170E"/>
+  <!-- Two figures walking -->
+  <g fill="#0E2A33">
+    <g transform="translate(430 650)">
+      <circle cx="0" cy="-90" r="20"/>
+      <path d="M-18 -68 L -28 60 L -8 60 L -4 -10 L 4 -10 L 8 60 L 28 60 L 18 -68 Z"/>
+    </g>
+    <g transform="translate(510 655)">
+      <circle cx="0" cy="-90" r="18"/>
+      <path d="M-15 -68 L -22 55 L -8 55 L -4 -8 L 4 -8 L 8 55 L 22 55 L 15 -68 Z"/>
+    </g>
+  </g>
+</svg>

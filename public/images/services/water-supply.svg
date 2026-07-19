@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ws-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#25566A"/>
+      <stop offset="100%" stop-color="#0E2A33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ws-bg)"/>
+  <!-- Sun -->
+  <circle cx="960" cy="200" r="80" fill="#D8AF4A" opacity="0.85"/>
+  <circle cx="960" cy="200" r="120" fill="#D8AF4A" opacity="0.2"/>
+  <!-- Solar panel -->
+  <g transform="translate(190 240)">
+    <path d="M0 200 L 380 100 L 480 130 L 100 230 Z" fill="#1B4353" stroke="#B4863A" stroke-width="3"/>
+    <g stroke="#B4863A" stroke-width="1.5" opacity="0.7">
+      <line x1="40" y1="220" x2="420" y2="120"/>
+      <line x1="80" y1="210" x2="460" y2="110"/>
+      <line x1="130" y1="180" x2="130" y2="220"/>
+      <line x1="200" y1="160" x2="200" y2="205"/>
+      <line x1="270" y1="140" x2="270" y2="190"/>
+      <line x1="340" y1="118" x2="340" y2="175"/>
+    </g>
+  </g>
+  <!-- Tank & pipe -->
+  <g fill="#B4863A">
+    <rect x="700" y="380" width="220" height="240" rx="12"/>
+    <rect x="800" y="620" width="20" height="220" fill="#8F6B2E"/>
+    <rect x="200" y="720" width="640" height="14" rx="7" fill="#8F6B2E"/>
+  </g>
+  <!-- Water drops -->
+  <g fill="#7ABDDA" opacity="0.7">
+    <circle cx="220" cy="800" r="6"/>
+    <circle cx="260" cy="820" r="4"/>
+    <circle cx="180" cy="810" r="5"/>
+  </g>
+</svg>

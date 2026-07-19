@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="dm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#153743"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#dm-bg)"/>
+  <!-- Meter body -->
+  <g transform="translate(600 450)">
+    <rect x="-160" y="-220" width="320" height="440" rx="24" fill="#F1E1B0" stroke="#B4863A" stroke-width="4"/>
+    <rect x="-140" y="-200" width="280" height="180" rx="12" fill="#0E2A33"/>
+    <!-- Screen readout -->
+    <text x="0" y="-90" text-anchor="middle" font-family="Courier, monospace" font-size="80" fill="#D8AF4A" font-weight="600">6.8</text>
+    <text x="0" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#F1E1B0" letter-spacing="3">mg / L</text>
+    <!-- Buttons -->
+    <circle cx="-90" cy="30" r="20" fill="#B4863A"/>
+    <circle cx="0" cy="30" r="20" fill="#B4863A"/>
+    <circle cx="90" cy="30" r="20" fill="#B4863A"/>
+    <!-- Cable -->
+    <path d="M0 220 C 0 320, 200 350, 240 450" stroke="#0E2A33" stroke-width="8" fill="none"/>
+    <!-- Probe -->
+    <rect x="215" y="440" width="50" height="120" rx="10" fill="#B4863A" stroke="#0E2A33" stroke-width="3"/>
+  </g>
+  <!-- Label -->
+  <text x="600" y="820" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#D8AF4A">DISSOLVED OXYGEN METER</text>
+</svg>

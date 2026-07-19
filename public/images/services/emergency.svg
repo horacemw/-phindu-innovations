@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="em-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33170E"/>
+      <stop offset="100%" stop-color="#7D3B24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#em-bg)"/>
+  <!-- Circular pulse rings -->
+  <g fill="none" stroke="#D8AF4A" stroke-width="3" opacity="0.6">
+    <circle cx="600" cy="450" r="140"/>
+    <circle cx="600" cy="450" r="200" opacity="0.5"/>
+    <circle cx="600" cy="450" r="260" opacity="0.3"/>
+    <circle cx="600" cy="450" r="320" opacity="0.18"/>
+  </g>
+  <!-- Phone icon -->
+  <g transform="translate(600 450)" fill="#F1E1B0">
+    <path d="M-60 -70 C -80 -70, -95 -55, -90 -35 C -80 5, -50 55, -10 90 C 10 105, 30 100, 40 80 L 55 55 C 60 45, 55 35, 45 30 L 20 20 C 12 17, 3 20, -2 27 L -8 35 C -25 20, -40 5, -55 -12 L -47 -18 C -40 -23, -37 -32, -40 -40 L -50 -65 C -55 -75, -50 -70, -60 -70 Z" transform="translate(0 -10)"/>
+  </g>
+  <!-- 24/7 label -->
+  <g font-family="Georgia, serif" fill="#F1E1B0" text-anchor="middle">
+    <text x="600" y="720" font-size="60" font-weight="500">24/7</text>
+    <text x="600" y="770" font-size="18" letter-spacing="6">EMERGENCY HOTLINE</text>
+  </g>
+</svg>

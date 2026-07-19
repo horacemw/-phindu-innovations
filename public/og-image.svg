@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2830"/>
+      <stop offset="100%" stop-color="#15323B"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1F6E8C" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1F6E8C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#9A7B2E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#9A7B2E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <text x="80" y="150" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="6" fill="#D2B04A" font-weight="600">PHINDU · INNOVATIONS</text>
+  <text x="80" y="290" font-family="Georgia, serif" font-size="76" fill="#FCFAF5">Engineering Sustainable</text>
+  <text x="80" y="380" font-family="Georgia, serif" font-size="76" fill="#F0E5C2" font-style="italic">Aquaculture for Africa</text>
+  <text x="80" y="460" font-family="Inter, Arial, sans-serif" font-size="22" fill="#FCFAF5" opacity="0.7">Aquaculture · Aquaponics · Civil Engineering · Malawi</text>
+  <line x1="80" y1="530" x2="1120" y2="530" stroke="#FCFAF5" stroke-opacity="0.15"/>
+  <text x="80" y="570" font-family="Inter, Arial, sans-serif" font-size="18" fill="#FCFAF5" opacity="0.6">phinduinnovations.com</text>
+</svg>

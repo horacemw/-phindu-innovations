@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="lb-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#153743"/>
+      <stop offset="100%" stop-color="#0E2A33"/>
+    </linearGradient>
+    <linearGradient id="lb-liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ABDDA" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#2A8FB5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#lb-bg)"/>
+  <!-- 3 beakers -->
+  <g stroke="#B4863A" stroke-width="4" fill="none">
+    <!-- flask -->
+    <path d="M330 250 L 330 400 L 220 700 L 460 700 L 350 400 L 350 250 Z" fill="#153743"/>
+    <path d="M255 620 L 425 620 L 415 660 L 265 660 Z" fill="url(#lb-liquid)"/>
+    <!-- beaker -->
+    <path d="M540 300 L 540 700 L 720 700 L 720 300 L 700 280 L 560 280 Z" fill="#153743"/>
+    <rect x="540" y="550" width="180" height="150" fill="url(#lb-liquid)"/>
+    <!-- test tube -->
+    <path d="M810 300 L 810 660 A 60 60 0 0 0 930 660 L 930 300 Z" fill="#153743"/>
+    <path d="M810 500 L 810 660 A 60 60 0 0 0 930 660 L 930 500 Z" fill="url(#lb-liquid)"/>
+  </g>
+  <!-- Bubbles -->
+  <g fill="#D8AF4A" opacity="0.7">
+    <circle cx="340" cy="640" r="6"/><circle cx="380" cy="670" r="4"/><circle cx="400" cy="640" r="5"/>
+    <circle cx="620" cy="580" r="6"/><circle cx="670" cy="620" r="4"/>
+    <circle cx="870" cy="550" r="4"/><circle cx="895" cy="600" r="5"/>
+  </g>
+</svg>

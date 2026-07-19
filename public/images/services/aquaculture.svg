@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#25566A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#D8AF4A" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#D8AF4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <!-- Fish -->
+  <g fill="#D8AF4A" opacity="0.9">
+    <path d="M280 460 c 160 -80, 340 -80, 460 -20 l 90 -35 l -32 65 l 32 65 l -90 -35 c -120 60, -300 60, -460 -20 c -35 -20, -35 -55, 0 -20 z"/>
+    <circle cx="720" cy="450" r="10" fill="#0E2A33"/>
+    <path d="M300 490 c 30 25, 60 40, 90 45" stroke="#0E2A33" stroke-width="4" fill="none" opacity="0.5"/>
+  </g>
+  <!-- Water ripples -->
+  <g stroke="#2A8FB5" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M80 640 C 300 620, 900 660, 1120 640"/>
+    <path d="M80 700 C 300 680, 900 720, 1120 700"/>
+    <path d="M80 760 C 300 740, 900 780, 1120 760"/>
+    <path d="M80 820 C 300 800, 900 840, 1120 820"/>
+  </g>
+</svg>

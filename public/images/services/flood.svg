@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fl-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#25566A"/>
+    </linearGradient>
+    <linearGradient id="fl-river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A8FB5"/>
+      <stop offset="100%" stop-color="#1A5B71"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#fl-sky)"/>
+  <!-- Distant hills -->
+  <path d="M0 480 C 200 430, 400 450, 600 420 C 800 390, 1000 440, 1200 410 L 1200 550 L 0 550 Z" fill="#153743"/>
+  <path d="M0 540 C 300 500, 600 530, 900 510 C 1050 500, 1200 520, 1200 510 L 1200 620 L 0 620 Z" fill="#0E2A33" opacity="0.8"/>
+  <!-- River -->
+  <path d="M0 700 C 200 660, 400 720, 700 680 C 900 660, 1100 720, 1200 690 L 1200 900 L 0 900 Z" fill="url(#fl-river)"/>
+  <!-- Levee -->
+  <path d="M0 660 C 200 620, 400 680, 700 640 C 900 620, 1100 680, 1200 650 L 1200 680 C 1100 710, 900 650, 700 670 C 400 710, 200 650, 0 690 Z" fill="#B4863A" opacity="0.9"/>
+  <!-- Riprap dots -->
+  <g fill="#8F6B2E">
+    <circle cx="120" cy="670" r="3"/><circle cx="180" cy="665" r="3"/><circle cx="240" cy="675" r="3"/>
+    <circle cx="480" cy="655" r="3"/><circle cx="560" cy="660" r="3"/><circle cx="640" cy="650" r="3"/>
+    <circle cx="820" cy="645" r="3"/><circle cx="900" cy="660" r="3"/><circle cx="980" cy="655" r="3"/>
+  </g>
+</svg>

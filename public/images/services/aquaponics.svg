@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ap-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#153743"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C9C57"/>
+      <stop offset="100%" stop-color="#2F5A3A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ap-bg)"/>
+  <!-- Greenhouse frame -->
+  <g stroke="#B4863A" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M200 250 L 600 130 L 1000 250 L 1000 720 L 200 720 Z"/>
+    <line x1="200" y1="250" x2="1000" y2="250"/>
+    <line x1="400" y1="192" x2="400" y2="720"/>
+    <line x1="600" y1="130" x2="600" y2="720"/>
+    <line x1="800" y1="192" x2="800" y2="720"/>
+    <line x1="200" y1="450" x2="1000" y2="450"/>
+  </g>
+  <!-- Grow beds -->
+  <g fill="url(#green)" opacity="0.9">
+    <rect x="240" y="480" width="330" height="80" rx="6"/>
+    <rect x="630" y="480" width="330" height="80" rx="6"/>
+    <rect x="240" y="600" width="330" height="80" rx="6"/>
+    <rect x="630" y="600" width="330" height="80" rx="6"/>
+  </g>
+  <!-- Plant tops -->
+  <g fill="#8CB57C">
+    <circle cx="290" cy="480" r="18"/><circle cx="360" cy="480" r="18"/><circle cx="430" cy="480" r="18"/><circle cx="500" cy="480" r="18"/>
+    <circle cx="680" cy="480" r="18"/><circle cx="750" cy="480" r="18"/><circle cx="820" cy="480" r="18"/><circle cx="890" cy="480" r="18"/>
+    <circle cx="290" cy="600" r="18"/><circle cx="360" cy="600" r="18"/><circle cx="430" cy="600" r="18"/><circle cx="500" cy="600" r="18"/>
+    <circle cx="680" cy="600" r="18"/><circle cx="750" cy="600" r="18"/><circle cx="820" cy="600" r="18"/><circle cx="890" cy="600" r="18"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cs-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E2A33"/>
+      <stop offset="100%" stop-color="#153743"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#cs-bg)"/>
+  <!-- Blueprint grid -->
+  <g stroke="#D8AF4A" stroke-width="1" opacity="0.18">
+    <line x1="0" y1="100" x2="1200" y2="100"/><line x1="0" y1="200" x2="1200" y2="200"/><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="400" x2="1200" y2="400"/><line x1="0" y1="500" x2="1200" y2="500"/><line x1="0" y1="600" x2="1200" y2="600"/><line x1="0" y1="700" x2="1200" y2="700"/><line x1="0" y1="800" x2="1200" y2="800"/>
+    <line x1="100" y1="0" x2="100" y2="900"/><line x1="200" y1="0" x2="200" y2="900"/><line x1="300" y1="0" x2="300" y2="900"/><line x1="400" y1="0" x2="400" y2="900"/><line x1="500" y1="0" x2="500" y2="900"/><line x1="600" y1="0" x2="600" y2="900"/><line x1="700" y1="0" x2="700" y2="900"/><line x1="800" y1="0" x2="800" y2="900"/><line x1="900" y1="0" x2="900" y2="900"/><line x1="1000" y1="0" x2="1000" y2="900"/><line x1="1100" y1="0" x2="1100" y2="900"/>
+  </g>
+  <!-- Site plan -->
+  <g stroke="#D8AF4A" stroke-width="3" fill="none">
+    <rect x="200" y="180" width="800" height="540" rx="10"/>
+    <!-- Ponds -->
+    <rect x="260" y="240" width="220" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <rect x="510" y="240" width="220" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <rect x="760" y="240" width="180" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <rect x="260" y="420" width="220" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <rect x="510" y="420" width="220" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <rect x="760" y="420" width="180" height="140" rx="6" fill="#2A8FB5" fill-opacity="0.4"/>
+    <!-- Access road -->
+    <path d="M260 600 L 940 600" stroke-dasharray="8 8"/>
+    <!-- Water inlet -->
+    <path d="M200 300 L 100 300" />
+    <circle cx="200" cy="300" r="6" fill="#D8AF4A"/>
+    <!-- Compass -->
+    <circle cx="1050" cy="200" r="34" stroke-width="2"/>
+    <path d="M1050 172 L 1057 210 L 1050 202 L 1043 210 Z" fill="#D8AF4A"/>
+    <text x="1050" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#D8AF4A">N</text>
+  </g>
+  <!-- Dimension label -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#D8AF4A" opacity="0.75">
+    <text x="600" y="150">80 m × 60 m compound</text>
+  </g>
+</svg>
