@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
-const repoName = 'phindu-innovations';
 const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+// GITHUB_REPOSITORY is "owner/repo" — take the part after the slash so the basePath
+// automatically matches the actual repo name (including leading dashes, etc.).
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '-phindu-innovations';
 
 const nextConfig = {
   reactStrictMode: true,
